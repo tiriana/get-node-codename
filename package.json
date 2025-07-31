@@ -1,0 +1,47 @@
+{
+  "name": "get-node-codename",
+  "version": "0.0.0-development",
+  "description": "CLI to get Node.js LTS codenames from version numbers",
+  "bin": {
+    "get-node-codename": "./bin/get-node-codename.cjs"
+  },
+  "scripts": {
+    "test": "node bin/get-node-codename.cjs --all > /dev/null"
+  },
+  "author": {
+    "name": "Radomir Wojtera",
+    "email": "radomir.wojtera@gmail.com",
+    "url": "https://www.radomir.dev/"
+  },
+  "contributors": [
+    {
+      "name": "tiriana",
+      "url": "https://github.com/tiriana"
+    }
+  ],
+  "homepage": "https://www.radomir.dev/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiriana/get-node-codename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tiriana/get-node-codename/issues"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "keywords": [
+    "node",
+    "lts",
+    "codename",
+    "cli"
+  ],
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^23.0.0"
+  }
+}
